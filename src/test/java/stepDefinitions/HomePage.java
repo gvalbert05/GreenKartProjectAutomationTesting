@@ -31,7 +31,7 @@ public class HomePage {
 	public void validate_the_page_title() {
 		
 		System.out.println(driver.getTitle());
-		System.out.println(driver.getTitle()); //This is need to duplicate line
+		//Duplicate Line has been removed and Reviewer Comments Addressed 
 	}
 
 	@Then("Validate the product name")
